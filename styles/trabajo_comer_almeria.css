@@ -1,0 +1,181 @@
+body {
+    background-color: #F7F2E5;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    background-color: #F7F2E5;
+}
+
+.logo-container img{
+    width: 200px;
+    height: 200px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.navigation-bar {
+    list-style-type: none;
+    background-color: #F7F2E5;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navigation-bar li {
+    border: 2px #4090CB solid;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.navigation-bar li:hover,
+.navigation-bar li:active {
+    background-color: #80c9fd;
+}
+
+.navigation-bar li:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.navigation-bar li:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+.navigation-bar a{
+    color: black;
+}
+
+.background-section-one,
+.background-section-two {
+    background-color: #8ba776;
+    padding: 30px;
+    text-align: justify;
+    margin-top: 30px;
+    width: 80vw;
+    margin: 30px auto;
+}
+
+.background-section-one {
+    padding-top: 5px;
+}
+
+.background-section-two {
+    display: flex;
+    text-align: justify;
+}
+
+.images-section-one {
+    display: flex;
+    justify-content: center;
+}
+
+.images-section-one img {
+    margin: 0 20px;
+    width: 30%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.redirection-buttons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px auto;
+}
+.redirection-buttons li {
+    background-color: white;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+.redirection-buttons li a {
+    display: block;
+    color: black;
+    padding: 8% 16%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.redirection-buttons li a:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.img-almeria img {
+    width: 20em;
+    height: 20em;
+}
+
+.background-section-two-text-container {
+    margin-left: 30px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-container h2, h3 {
+    text-align: center;
+    color:#4090CB;
+}
+
+.newsletter-container {
+    text-align: center;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.newsletter-email-input {
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+.newsletter-list-container {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-list-container li{
+    text-align: left;
+    margin: auto;
+}
+
+.footer-container {
+    background-color: #8ba776;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.footer-container img {
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .background-section-two {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .background-section-two-text-container {
+        margin-left: 0;
+    }
+}

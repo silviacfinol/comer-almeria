@@ -1,0 +1,148 @@
+body {
+    background-color: #F7F2E5;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    background-color: #F7F2E5;
+}
+
+.logo-container img{
+    width: 200px;
+    height: 200px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.navigation-bar {
+    list-style-type: none;
+    background-color: #F7F2E5;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navigation-bar li {
+    border: 2px #4090CB solid;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.navigation-bar li:hover,
+.navigation-bar li:active {
+    background-color: #80c9fd;
+}
+
+.navigation-bar li.active {
+    background-color: #4090CB;
+}
+
+.navigation-bar li:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.navigation-bar li:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+.navigation-bar a{
+    color: black;
+}
+
+.place-name-container {
+    background-color: #8ba776;
+    padding: 30px;
+    text-align: justify;
+    margin-top: 30px;
+    width: 80vw;
+    margin: 30px auto;
+}
+
+.place-name-container .place-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.place-name-container img {
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.place-description-container {
+    padding: 30px;
+    text-align: justify;
+    margin-top: 30px;
+    width: 85vw;
+    margin: 30px auto;
+}
+
+.place-description-container h2 {
+    text-align: end;
+}
+
+.place-description-container-information {
+    display: flex;
+    padding-top: 20px;
+}
+
+.place-description-container-information img{
+    width: 50%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    margin-right: 40px;
+}
+
+.place-description-container-information>div {
+    width: 50%;
+}
+
+.honorific-mention-container {
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.footer-container {
+    background-color: #8ba776;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.footer-container img {
+    margin: 0 10px;
+    height: 50px;
+    width: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .place-description-container-information {
+        flex-direction: column;
+    }
+
+    .place-description-container-information img,
+    .place-description-container-information>div {
+        width: 100%
+    }
+
+    .place-name-container,
+    .place-description-container {
+        width: 75vw;
+    }
+}
