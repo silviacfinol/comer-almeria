@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="visitas.xslt"?>
+<!-- Documento de visitas al sitio web -->
+<visitas>
+	<visita>
+		<fecha>2025-12-15</fecha>
+		<hora>08:30</hora>
+		<pagina>trabajo_comer_almeria</pagina>
+		<navegador>chrome</navegador>
+		<duracion>300</duracion>
+	</visita>
+	<visita>
+		<fecha>2025-12-15</fecha>
+		<hora>09:10</hora>
+		<pagina>trabajo_comer_almeria</pagina>
+		<navegador>chrome</navegador>
+		<duracion>45</duracion>
+	</visita>
+	<visita>
+		<fecha>2025-12-16</fecha>
+		<hora>14:05</hora>
+		<pagina>trabajo_comer_almeria</pagina>
+		<navegador>firefox</navegador>
+		<duracion>1200</duracion>
+	</visita>
+	<visita>
+		<fecha>2025-12-16</fecha>
+		<hora>15:20</hora>
+		<pagina>restaurantes</pagina>
+		<navegador>edge</navegador>
+		<duracion>600</duracion>
+	</visita>
+	<visita>
+		<fecha>2025-12-17</fecha>
+		<hora>11:00</hora>
+		<pagina>baresytapas</pagina>
+		<navegador>safari</navegador>
+		<duracion>30</duracion>
+	</visita>
+	<visita>
+		<fecha>2025-12-17</fecha>
+		<hora>12:45</hora>
+		<pagina>cafeterias</pagina>
+		<navegador>opera</navegador>
+		<duracion>90</duracion>
+	</visita>
+</visitas>
