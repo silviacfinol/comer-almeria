@@ -87,11 +87,37 @@
                 <p>Mención Honorífica: Comidas saludables, creatividad gastronómica y tradicional.</p>
             </div>
         </section>
+        <form class="comment-form-container">
+            <h2>¿Has ido a alguno de estos lugares? Déjanos tú reseña</h2>
+            <div class="message-container">
+                <label class="comment-label">
+                    Nombre y Apellido
+                </label>
+                <input class="comment-input" id="name-input" type="text" placeholder="Juan García">
+                <label class="comment-label">
+                    Puntuación
+                </label>
+                <select class="comment-input" id="rating-select">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label class="comment-label">
+                    Comentarios
+                </label>
+                <textarea class="comment-text" placeholder="Escribe aqui tu comentario" id="comment-text"></textarea>
+                <button class="comment-send-button" type="submit">Enviar</button>
+            </div>
+        </form>
         <footer class="footer-container">
             <h2>¡Síguenos en redes!</h2>
                 <img src="images/facebook.png" alt="facebook">
                 <img src="images/instagram.png" alt="instagram">
             <p>Y descubre mucho más de los rincones gastronómicos en Almería</p>
         </footer>
+        <script src="scripts/script.js"></script>
     </body>
 </html>
