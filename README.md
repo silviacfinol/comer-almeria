@@ -8,3 +8,5 @@ Se trabajó con:
 
 Se pidió hacer un proyecto el cual se eligió como temática Lugares donde comer en Almería Capital.
 Se realizaron 4 archivos HTML, uno de bienvenida con información general de la página, otros tres sobre cada pestaña. Estos últimos tres, al tener una misma estructura, se tomó la decisión de utilizar una única hoja de estilos. 
+
+URL del sitio: https://silviacfinol.github.io/comer-almeria/trabajo_comer_almeria.html
